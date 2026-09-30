@@ -163,7 +163,7 @@ const playSFX = (type, enabled = true) => {
       osc2.frequency.setValueAtTime(297.0, now)
       osc2.frequency.linearRampToValueAtTime(445, now + 0.2)
 
-      gain.gain.setValueAtTime(0.01, now)
+      gain.gain.setValueAtTime(0.02, now)
       gain.gain.linearRampToValueAtTime(0.4, now + 0.15)
       gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6)
 
